@@ -1,0 +1,96 @@
+.big {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    font-weight: 900;
+}
+
+.resume h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    /* Center the text */
+}
+
+.resume {
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    /* Center the content */
+}
+.resume p{
+    color: #6c757d;
+    font-size: 17px;
+}
+.resume-box {
+    width: auto;
+    min-width: 45%;
+    max-width: 45%;
+    height: auto;
+    min-height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px 20px; /* Adjusting margin to avoid horizontal overflow */
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+}
+.resume-box .date{
+    font-weight: 900;
+    font-size: 26px;
+    color: #ffbd39;
+    display: flex;
+    left: 0px;
+}
+.resume-box h2{
+    font-size: 26px;
+    font-weight: 100;
+    margin-top: 10px;
+    position: absolute;
+}
+.resume-box .position{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 30px;
+}
+.resume-box p{
+    text-align: left;
+}
+@media screen and (max-width:905px) {
+  .resume-box{
+    min-width: 100%;
+    max-width: 100%;
+    margin: 20px 0px;
+  }
+  .resume p{
+    margin: 0px 15px;
+  }
+}
+.download-resume{
+    margin-bottom: 30px;
+    background: #ffbd39;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 !important;
+    border-radius: 40px;
+}
+.download-resume:hover{
+    color: #ffbd39 !important;
+}
+@media only screen and (max-width: 600px) {
+    .resume-box h2 {
+        font-size: 18px;
+        font-weight: 100;
+        margin-top: 10px;
+        position: absolute;
+    }
+  }

@@ -1,0 +1,77 @@
+[
+    {
+      "id":"01",
+       "projectname":"QuickBill",
+       "frontend": ["React", "MUI", "React Bootstrap"],
+       "backend" : [ "Node.js" ],
+       "database" :  "Mysql" ,
+       "images" : [ "http://localhost:3000/Project-images/Quikbill1.png",
+                    "http://localhost:3000/Project-images/Quikbill2.png",
+                    "http://localhost:3000/Project-images/Quikbill3.png",
+                    "http://localhost:3000/Project-images/Quikbill4.png", 
+                    "http://localhost:3000/Project-images/Quikbill5.png"],
+       "github" : "https://github.com/Abhishekthakre2001?tab=repositories",
+       "projecturl" : "http://localhost:3000/Demovideo/quikbill.mp4",
+      "information": "<strong>Inventory Management and Billing System</strong><br>This application helps shopkeepers manage inventory and automate billing processes.<br><b>Features include:</b> real-time inventory tracking, automated bill generation, and email integration with QR code payment.<br>Print bills directly and streamline transactions with ease.<br>Designed to improve efficiency and accuracy in retail operations."
+  },
+  {
+    "id":"02",
+     "projectname":"AttendSnap",
+     "frontend": ["React", "React Bootstrap"],
+     "backend" : [ "Node.js" ],
+     "database" :  "Mysql" ,
+     "images" : [ "http://localhost:3000/Project-images/AttendSnap1.png",
+                  "http://localhost:3000/Project-images/AttendSnap2.png",
+                  "http://localhost:3000/Project-images/AttendSnap3.png"
+                ],
+     "github" : "https://github.com/Abhishekthakre2001?tab=repositories",
+     "projecturl" : "https://skyattendancedashboard.netlify.app/",
+    "information": "<strong>Smart Attendance with Location Precision</strong><br>Description: A comprehensive attendance management system where admins can add users, and employees can clock in and out by scanning QR codes. The system captures location data, enabling admins to verify attendance locations and manage statuses like late, half-day, absent, or present. Advanced features include location-based alerts, real-time notifications, and detailed reporting."
+},
+{
+  "id":"03",
+   "projectname":"Shopify App",
+   "frontend": ["React", "React Bootstrap", "MUI" , "Liquid Programing Lan.", "Shopify API"],
+   "backend" : [ "Node.js" ],
+   "database" :  "Mysql" ,
+   "images" : [ "http://localhost:3000/Project-images/Product_purchase1.png",
+                "http://localhost:3000/Project-images/Product_purchase2.png",
+                "http://localhost:3000/Project-images/Product_purchase3.png",
+                "http://localhost:3000/Project-images/Stickyfix1.png",
+                "http://localhost:3000/Project-images/Stickyfix2.png",
+                "http://localhost:3000/Project-images/Stickyfix3.png"
+              ],
+   "github" : "https://github.com/Abhishekthakre2001?tab=repositories",
+   "projecturl" : "https://apps.shopify.com/stickyfix-notification-bar?search_id=59f29b0a-88c6-4dcf-8fe8-0ec16a01ae6b&surface_detail=Stickyfix&surface_inter_position=1&surface_intra_position=1&surface_type=search",
+  "information": "<h3><b>Stickyfix Notification Bar</b></h3><br><strong>Stickyfix Notification Bar Boost Your Sales from your store</strong><br>Description: The solution for Shopify store owners looking to enhance customer engagement and drive more sales. With Stickyfix, you can effortlessly create eye-catching notification bars that keep your visitors informed and motivated to take action. Craft compelling messages to highlight special offers, announce new arrivals, or share important updates. With Stickyfix, your notification text will grab attention and encourage customer interaction.<br> <br><h3><b>CartBar ‑ Product Purchase Bar</b></h3> <strong> Description : </strong><p>Introducing the Sticky Discount Product Purchase Bar app – your secret weapon for making product announcements, offers, and sales truly irresistible! You can effortlessly create eye-catching displays featuring product images, prices, discounts, and captivating offer descriptions. Brace yourself for a shopping revolution as the Sticky Discount Product Purchase Bar takes center stage, showcasing the highlights that matter most – enticing visuals, unbeatable discounts, and a tempting Add to Cart</p><br> Currently Working on the <h5> <b> RG-Floating Cart Bar</b></h5>"
+},
+{
+  "id":"05",
+   "projectname":"Weather Application",
+   "frontend": ["HTML5", "Bootstrap","CSS3", "JS"],
+   "backend" : [],
+
+   "images" : [ "http://localhost:3000/Project-images/weather1.png",
+                "http://localhost:3000/Project-images/weather2.png",
+                "http://localhost:3000/Project-images/weather3.png"
+              ],
+   "github" : "https://github.com/Abhishekthakre2001/Weather-Application",
+   "projecturl" : "https://weatherindiainfo.netlify.app/",
+  "information": "This Weather Application, built with HTML, CSS, Bootstrap, and JavaScript, provides real-time weather updates for the user's current location and allows searching for weather in any city. It fetches data from a weather API and displays key information such as city name, temperature (°C), current weather icon, air quality metrics (CO, SO2, NO2), and wind details (direction and speed). The app offers a responsive and intuitive interface, ensuring users can easily access accurate weather information."
+},
+{
+  "id":"06",
+   "projectname":"Personal Portfolio",
+   "frontend": ["HTML5", "Bootstrap","CSS3", "JS"],
+   "backend" : [],
+
+   "images" : [ "http://localhost:3000/Project-images/portfolio1.png",
+                "http://localhost:3000/Project-images/portfolio2.png",
+                "http://localhost:3000/Project-images/portfolio3.png",
+                "http://localhost:3000/Project-images/portfolio4.png"
+              ],
+   "github" : "https://github.com/Abhishekthakre2001/Portfolio",
+   "projecturl" : "https://weatherindiainfo.netlify.app/",
+  "information": "This portfolio website, crafted using HTML, CSS, Bootstrap, and JavaScript, features four main sections: **Home**, **About**, **Projects**, and **Contact**. The **Home** section provides a welcoming introduction, the **About** section highlights personal and professional background, the **Projects** section showcases a curated selection of work, and the **Contact** section offers ways to get in touch. The design is clean, responsive, and user-friendly, presenting content in an organized and visually appealing manner."
+}
+]

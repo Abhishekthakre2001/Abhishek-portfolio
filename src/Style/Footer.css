@@ -1,0 +1,24 @@
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-top: 100px;
+}
+.list-unstyled li a{
+    text-decoration: none !important;
+    color: #999999;
+}
+
+a{
+    text-decoration: none;
+}
+.ftco-heading-2{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-top: 100px;
+}
+.footer-section{
+    height: 50vh;
+  
+}

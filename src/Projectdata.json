@@ -1,0 +1,20 @@
+[
+    {
+       "projectname":"Sky attendance",
+       "frontend": ["React", "MUI", "React Bootstrap"],
+       "backend" : [ "node.js" ],
+       "database" : [ "mysql" ],
+       "images" : [ "../Project-images/image.png"],
+       "github" : "https://github.com",
+       "projecturl" : "https://abhishekthakre.netlify.app"
+    },
+    {
+        "projectname":"Sky attendance",
+        "frontend": ["React", "MUI", "React Bootstrap"],
+        "backend" : [ "node.js" ],
+        "database" : [ "mysql" ],
+        "images" : [ "../Project-images/image.png"],
+        "github" : "https://github.com",
+        "projecturl" : "https://abhishekthakre.netlify.app"
+     }
+]

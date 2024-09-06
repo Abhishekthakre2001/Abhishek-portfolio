@@ -1,0 +1,65 @@
+.subheading{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffbd39;
+}
+.home-title h1{
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.home-title span{
+    font-weight: 800;
+    color: #ffbd39;
+}
+.home-title h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+.hireme-btn{
+    font-weight: 600;
+    margin-bottom: 30px;
+    background: #ffbd39;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 ;
+    border-radius: 30px;
+}
+.hireme-btn:hover{
+    background-color: transparent;
+    color: #ffbd39;
+}
+.home-title p a{
+    margin: 0px 5px;
+}
+.contact-btn{
+    background: transparent;
+    border: 1px solid #ffbd39 !important;
+    color: #ffbd39 ;
+    border-radius: 30px;
+}
+.contact-btn:hover{
+    background: transparent;
+    border: 1px solid #ffbd39 !important;
+    color: #ffbd39 ;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:770px) {
+    .container{
+    margin-top: 0px;
+    }
+    .home-title h1{
+        font-size: 60px;
+        color: #fff;
+        line-height: 1.2;
+        font-weight: 800;
+    }
+    .home-image{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,65 @@
+/* Ensure h2 has enough space around it and is not positioned absolutely if overlap is an issue */
+.about-title {
+    position: relative;
+    z-index: 1; /* Ensure the title is above the image */
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-top: 100px; /* Adjust as needed */
+    z-index: 1;
+}
+
+.big {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    font-weight: 900;
+}
+
+/* Margin top for the paragraph to ensure it doesn’t overlap with the h2 */
+.about-data p {
+    margin-top: 20px; /* Adjust as needed to ensure space below h2 */
+}
+
+ul.about-info li span:first-child {
+    font-weight: 600;
+    color: #ffbd39;
+    width: 130px;
+    text-align: center;
+    margin: 5px;
+}
+.download-cv-btn{
+    background: #ffbd39;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 !important;
+    border-radius: 30px;
+}
+.download-cv-btn:hover{
+    background: #000000;
+    border: 1px solid #ffbd39 !important;
+    color: #ffbd39 !important;
+    border-radius: 30px;
+}
+.myqr{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+}
+.about-info{
+    position: relative;
+}
+
+
+@media screen and (max-width:1186px) {
+    .myqr{
+        display: none;
+    }
+     
+ }
