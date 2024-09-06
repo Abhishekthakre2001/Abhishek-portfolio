@@ -1,23 +1,29 @@
-// src/App.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // import Navbar from './Components/Navbar';
 import Routeing from './Components/Routeing';
-import SplashScreen from './Components/SplashScreen';
+import SplashScreen from './Images/Splashlogo.png'; // Assuming it's an image, adjust the path as needed
 import './App.css';
 
 function App() {
-  const [showSplash, setShowSplash] = useState(true);
+  const [loading, setLoading] = useState(true);
 
-  const handleSplashFinished = () => {
-    setShowSplash(false); // Hide the splash screen
-  };
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    // Cleanup timer when the component unmounts
+    return () => clearTimeout(timer);
+  }, []); // Empty dependency array to run once on mount
 
   return (
     <div className="App">
-      {showSplash ? (
-        <SplashScreen onFinished={handleSplashFinished} />
+      {loading ? (
+        <div className="loader-container">
+          <img src={SplashScreen} alt="Loading..." className="loader-image" />
+        </div>
       ) : (
-       <Routeing />
+        <Routeing />
       )}
     </div>
   );

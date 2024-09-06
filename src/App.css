@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Loader Styles */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.loader-image {
+  width: 100px;
+  height: 100px;
+  animation: zoomInOut 2s ease-in-out forwards;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+hr{
+  margin: 0px !important;
 }
