@@ -65,7 +65,7 @@ export default function Projectdetail() {
                 }
             })
             .catch(error => console.error('Error fetching data:', error));
-    }, [])
+    }, [validpage])
 
     return (
         <>
@@ -122,10 +122,10 @@ export default function Projectdetail() {
                     </div>
                     <div dangerouslySetInnerHTML={{ __html: info }} />
                  
-                    <a className="btn btn-primary" href={github} target='_blank' role="button" style={{ borderRadius: '50%', margin: '20px' }}>
+                    <a className="btn btn-primary" href={github} target='_blank' rel="noopener noreferrer" role="button" style={{ borderRadius: '50%', margin: '20px' }}>
                         <FontAwesomeIcon icon={faGithub} style={{ fontSize: '30px' }} />
                     </a>
-                    <a className="btn btn-primary" href={projectdemo} target='_blank' role="button">
+                    <a className="btn btn-primary" href={projectdemo} target='_blank' rel="noopener noreferrer" role="button">
                         View Project
                     </a>
 

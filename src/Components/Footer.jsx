@@ -18,7 +18,7 @@ export default function Footer() {
                                 <p>
                                     Passionate and dedicated web developer with a strong background in React.js and Node.js, constantly eager to learn and tackle new challenges in the tech world.
                                 </p>
-                                <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                                {/* <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                                     <li className="ftco-animate">
                                         <a href="#">
                                             <span className='social-icons'>
@@ -40,7 +40,7 @@ export default function Footer() {
                                             </span>
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                         <div className="col-md">
@@ -55,18 +55,18 @@ export default function Footer() {
                                     <li><Link to="/Skills">Skills</Link></li>
                                     <li><Link to="/Contact">Contact</Link></li>
                                     <li>
-                                        <a href="https://wa.link/9py840" className='links' target='_blank'>
+                                        <a href="https://wa.link/9py840" className='links' target='_blank' rel="noopener noreferrer">
 
                                             <FontAwesomeIcon icon={faWhatsapp} style={{ margin: "0px 10px", fontSize: '30px' }} />
                                             {/* <FontAwesomeIcon icon={faLinkedinIn} style={{ margin:"0px 10px", fontSize:'30px'}} />
                                         <FontAwesomeIcon icon={faInstagram}  style={{ margin:"0px 10px", fontSize:'30px'}}/> */}
                                         </a>
-                                        <a href="https://www.linkedin.com/in/abhishek-thakre-3a111024b/" className='links' target='_blank'>
+                                        <a href="https://www.linkedin.com/in/abhishek-thakre-3a111024b/" className='links' target='_blank' rel="noopener noreferrer">
 
 
                                             <FontAwesomeIcon icon={faLinkedinIn} style={{ margin: "0px 10px", fontSize: '30px' }} />
                                         </a>
-                                        <a href="https://github.com/Abhishekthakre2001" className='links' target='_blank'>
+                                        <a href="https://github.com/Abhishekthakre2001" className='links' target='_blank' rel="noopener noreferrer">
                                         <FontAwesomeIcon icon={faGithub} style={{ margin: "0px 10px", fontSize: '30px' }}/>
                                             {/* <FontAwesomeIcon icon={faInstagram} style={{ margin: "0px 10px", fontSize: '30px' }} /> */}
                                         </a>
@@ -79,37 +79,37 @@ export default function Footer() {
                                 <h2 className="ftco-heading-2">Projects</h2>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <span className="icon-long-arrow-right mr-2" />
                                             Portfolio
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <span className="icon-long-arrow-right mr-2" />
                                             Weather Application
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <span className="icon-long-arrow-right mr-2" />
                                             Google Crome extension
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <span className="icon-long-arrow-right mr-2" />
                                             Billing Applicationn
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <span className="icon-long-arrow-right mr-2" />
                                             QR Attendance
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <span className="icon-long-arrow-right mr-2" />
                                             Shopify App
                                         </a>

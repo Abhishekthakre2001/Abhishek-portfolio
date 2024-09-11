@@ -105,7 +105,7 @@ export default function Contact() {
             <div className="row d-flex contact-info mb-5" data-aos="zoom-in">
                 <div className="col-md-6 col-lg-3 col-6  ftco-animate">
                     <div className="contact-box">
-                        <a href="https://github.com/Abhishekthakre2001" target="_blank" >
+                        <a href="https://github.com/Abhishekthakre2001" target="_blank" rel="noopener noreferrer" >
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
                                 <span>
@@ -120,7 +120,7 @@ export default function Contact() {
 
                 <div className="col-md-6 col-lg-3 col-6 ftco-animate" data-aos="zoom-in">
                     <div className="contact-box">
-                        <a href="https://www.linkedin.com/in/abhishek-thakre-3a111024b/" target="_blank" >
+                        <a href="https://www.linkedin.com/in/abhishek-thakre-3a111024b/" target="_blank" rel="noopener noreferrer" >
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
                                 <span><FontAwesomeIcon icon={faLinkedin} />                        </span>
@@ -134,7 +134,7 @@ export default function Contact() {
 
                 <div className="col-md-6 col-lg-3 col-6  ftco-animate" data-aos="zoom-in">
                     <div className="contact-box">
-                        <a href="https://wa.link/1jdatp" target="_blank" >
+                        <a href="https://wa.link/1jdatp" target="_blank" rel="noopener noreferrer">
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
                                 <span><IoIosCall /></span>
@@ -147,7 +147,7 @@ export default function Contact() {
 
                 <div className="col-md-6 col-lg-3 col-6 ftco-animate" data-aos="zoom-in">
                     <div className="contact-box">
-                        <a href="mailto:abhishekthakre060@gmail.com" target="_blank" >
+                        <a href="mailto:abhishekthakre060@gmail.com" target="_blank" rel="noopener noreferrer">
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
                                 <span><FaTelegramPlane /></span>
