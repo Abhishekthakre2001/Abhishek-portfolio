@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../Style/Contact.css';
-import { FaLocationDot } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';

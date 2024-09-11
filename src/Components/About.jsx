@@ -3,7 +3,7 @@ import mypic from '../Images/bg_1.png'
 import '../Style/About.css'
 import Myqr from '../Images/myqr.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser , faCalendarDays , faLocationDot , faPaperPlane ,faPhone , faBriefcase} from '@fortawesome/free-solid-svg-icons'; // Corrected import
+import { faUser , faCalendarDays , faLocationDot ,faPhone , faBriefcase} from '@fortawesome/free-solid-svg-icons'; // Corrected import
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';  

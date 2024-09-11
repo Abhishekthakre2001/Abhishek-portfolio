@@ -4,7 +4,7 @@ import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { useEffect } from 'react';
 import DOMPurify from 'dompurify';
-import Pagenotfound from './404.jsx';
+import Pagenotfound from './Pagenotfound.jsx';
 
 export default function Projectdetail() {
     const [mainImage, setMainImage] = useState("");

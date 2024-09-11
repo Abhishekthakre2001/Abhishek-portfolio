@@ -2,7 +2,7 @@ import React from 'react'
 import notfound from '../Images/404.png'
 import '../Style/404.css'
 
-export default function () {
+export default function Pagenotfound () {
   return (
     <>
     <div className="notfoundpage">
