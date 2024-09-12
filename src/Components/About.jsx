@@ -21,7 +21,7 @@ export default function About() {
         <>
             <div className="container">
                 <div className="row align-items-center" >
-                    <div className="col-lg-6 col-md-6 col-12 about-image text-center" data-aos="zoom-in-left">
+                    <div className="col-lg-6 col-md-6 col-12 about-image text-center" data-aos="zoom-in">
                         <img src={mypic} alt="Abhishek Thakre" className="img-fluid" style={{ height: "100vh" }} />
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 about-data">
