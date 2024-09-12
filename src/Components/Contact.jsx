@@ -102,7 +102,7 @@ export default function Contact() {
                 <h2 className="mb-4">Contact</h2>
                 <p>Feel free to reach out to me for any inquiries, collaborations, or opportunities. <br />I'm always open to connecting and discussing new ideas</p>
             </div>
-            <div className="row d-flex contact-info mb-5" data-aos="zoom-in" style="padding: 0px 15px;">
+            <div className="row d-flex contact-info mb-5" data-aos="zoom-in" style={{padding: "0px 15px"}}>
                 <div className="col-md-6 col-lg-3 col-6  ftco-animate">
                     <div className="contact-box">
                         <a href="https://github.com/Abhishekthakre2001" target="_blank" rel="noopener noreferrer" >
