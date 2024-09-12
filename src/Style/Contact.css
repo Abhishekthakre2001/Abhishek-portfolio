@@ -39,6 +39,7 @@
 }
 
 .Icon{
+    position: relative;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -106,4 +107,10 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #ffbd39;
     --bs-btn-disabled-border-color: #ffbd39;
+}
+
+.contact-logo{
+    position: absolute;
+    top: 10px;
+    left: 26px;
 }

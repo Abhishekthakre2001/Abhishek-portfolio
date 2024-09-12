@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 export default function Resume() {
     AOS.init({
         duration: 1000, // Duration of animations in milliseconds
-      });
+    });
     return (
         <>
             <div className="resume">
@@ -52,7 +52,10 @@ export default function Resume() {
                 </div>
             </div>
 
-            <a href="./Abhishek_Thakre_Resume.pdf"  download="./Abhishek_Thakre_Resume.pdf" className="btn btn px-4 hireme-btn">Download CV</a>
+            <div class="d-flex justify-content-center">
+                <a href="./Abhishek_Thakre_Resume.pdf" download="./Abhishek_Thakre_Resume.pdf" class="btn px-4 hireme-btn">Download CV</a>
+            </div>
+
         </>
     )
 }

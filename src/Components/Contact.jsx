@@ -108,7 +108,7 @@ export default function Contact() {
                         <a href="https://github.com/Abhishekthakre2001" target="_blank" rel="noopener noreferrer" >
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
-                                <span>
+                                <span className='contact-logo'>
                                     <FontAwesomeIcon icon={faGithub} />
                                 </span>
                             </div>
@@ -123,7 +123,7 @@ export default function Contact() {
                         <a href="https://www.linkedin.com/in/abhishek-thakre-3a111024b/" target="_blank" rel="noopener noreferrer" >
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
-                                <span><FontAwesomeIcon icon={faLinkedin} />                        </span>
+                                <span className='contact-logo'><FontAwesomeIcon icon={faLinkedin} />                        </span>
                             </div>
                             <h3 className="mb-4">Linkedin</h3>
                             <p style={{ color: '#999999' }}>Abhishek Thakre</p>
@@ -137,7 +137,7 @@ export default function Contact() {
                         <a href="https://wa.link/1jdatp" target="_blank" rel="noopener noreferrer">
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
-                                <span><IoIosCall /></span>
+                                <span className='contact-logo'><IoIosCall /></span>
                             </div>
                             <h3 className="mb-4">Contact</h3>
                             <p style={{ color: '#999999' }}>9689941705</p>
@@ -150,7 +150,7 @@ export default function Contact() {
                         <a href="mailto:abhishekthakre060@gmail.com" target="_blank" rel="noopener noreferrer">
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
-                                <span><FaTelegramPlane /></span>
+                                <span className='contact-logo'><FaTelegramPlane /></span>
                             </div>
                             <h3 className="mb-4">E-mail</h3>
                             <p style={{ color: '#999999' }}>abhishekthakre060@gmail.com</p>
