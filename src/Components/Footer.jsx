@@ -15,7 +15,7 @@ export default function Footer() {
                         <div className="col-md">
                             <div className="ftco-footer-widget mb-4">
                                 <h2 className="ftco-heading-2">About</h2>
-                                <p>
+                                <p style={{ textAlign:"center"}}>
                                     Passionate and dedicated web developer with a strong background in React.js and Node.js, constantly eager to learn and tackle new challenges in the tech world.
                                 </p>
                                 {/* <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
@@ -46,7 +46,7 @@ export default function Footer() {
                         <div className="col-md">
                             <div className="ftco-footer-widget mb-4 ml-md-4">
                                 <h2 className="ftco-heading-2">Links</h2>
-                                <ul className="list-unstyled">
+                                <ul className="list-unstyled" style={{ textAlign:"center"}}>
 
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/About">About</Link></li>
@@ -77,7 +77,7 @@ export default function Footer() {
                         <div className="col-md">
                             <div className="ftco-footer-widget mb-4">
                                 <h2 className="ftco-heading-2">Projects</h2>
-                                <ul className="list-unstyled">
+                                <ul className="list-unstyled" style={{ textAlign:"center"}}>
                                     <li>
                                         <a href="/">
                                             <span className="icon-long-arrow-right mr-2" />
@@ -120,7 +120,7 @@ export default function Footer() {
                         <div className="col-md">
                             <div className="ftco-footer-widget mb-4">
                                 <h2 className="ftco-heading-2">To Know More</h2>
-                                <div className="block-23 mb-3">
+                                <div className="block-23 mb-3" style={{ textAlign:"center"}}>
                                     <ul style={{ listStyle: 'none'}}>
                                         <li>
 
