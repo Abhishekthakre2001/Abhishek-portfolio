@@ -113,7 +113,7 @@ export default function Contact() {
                                 </span>
                             </div>
                             <h3 className="mb-4">Github</h3>
-                            <p style={{ color: '#999999' }}>AbhishekThakre2001</p>
+                            <p style={{ color: '#999999', textAlign:"center" }}>AbhishekThakre2001</p>
                         </a>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ export default function Contact() {
                                 <span className='contact-logo'><FontAwesomeIcon icon={faLinkedin} />                        </span>
                             </div>
                             <h3 className="mb-4">Linkedin</h3>
-                            <p style={{ color: '#999999' }}>Abhishek Thakre</p>
+                            <p style={{ color: '#999999', textAlign:"center" }}>Abhishek Thakre</p>
                         </a>
                     </div>
                 </div>
@@ -140,7 +140,7 @@ export default function Contact() {
                                 <span className='contact-logo'><IoIosCall /></span>
                             </div>
                             <h3 className="mb-4">Contact</h3>
-                            <p style={{ color: '#999999' }}>9689941705</p>
+                            <p style={{ color: '#999999', textAlign:"center" }}>9689941705</p>
                         </a>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ export default function Contact() {
                                 <span className='contact-logo'><FaTelegramPlane /></span>
                             </div>
                             <h3 className="mb-4">E-mail</h3>
-                            <p style={{ color: '#999999' }}>abhishekthakre060@gmail.com</p>
+                            <p style={{ color: '#999999' , textAlign:"center"}}>abhishekthakre060@gmail.com</p>
                         </a>
                     </div>
                 </div>
