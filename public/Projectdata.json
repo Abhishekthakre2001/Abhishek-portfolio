@@ -5,13 +5,13 @@
        "frontend": ["React", "MUI", "React Bootstrap"],
        "backend" : [ "Node.js" ],
        "database" :  "Mysql" ,
-       "images" : [ "http://localhost:3000/Project-images/Quikbill1.png",
-                    "http://localhost:3000/Project-images/Quikbill2.png",
-                    "http://localhost:3000/Project-images/Quikbill3.png",
-                    "http://localhost:3000/Project-images/Quikbill4.png", 
-                    "http://localhost:3000/Project-images/Quikbill5.png"],
+       "images" : [ "https://at-demo.netlify.app/Project-images/Quikbill1.png",
+                    "https://at-demo.netlify.app/Project-images/Quikbill2.png",
+                    "https://at-demo.netlify.app/Project-images/Quikbill3.png",
+                    "https://at-demo.netlify.app/Project-images/Quikbill4.png", 
+                    "https://at-demo.netlify.app/Project-images/Quikbill5.png"],
        "github" : "https://github.com/Abhishekthakre2001?tab=repositories",
-       "projecturl" : "http://localhost:3000/Demovideo/quikbill.mp4",
+       "projecturl" : "https://at-demo.netlify.app/Demovideo/quikbill.mp4",
       "information": "<strong>Inventory Management and Billing System</strong><br>This application helps shopkeepers manage inventory and automate billing processes.<br><b>Features include:</b> real-time inventory tracking, automated bill generation, and email integration with QR code payment.<br>Print bills directly and streamline transactions with ease.<br>Designed to improve efficiency and accuracy in retail operations."
   },
   {
@@ -20,9 +20,9 @@
      "frontend": ["React", "React Bootstrap"],
      "backend" : [ "Node.js" ],
      "database" :  "Mysql" ,
-     "images" : [ "http://localhost:3000/Project-images/AttendSnap1.png",
-                  "http://localhost:3000/Project-images/AttendSnap2.png",
-                  "http://localhost:3000/Project-images/AttendSnap3.png"
+     "images" : [ "https://at-demo.netlify.app/Project-images/AttendSnap1.png",
+                  "https://at-demo.netlify.app/Project-images/AttendSnap2.png",
+                  "https://at-demo.netlify.app/Project-images/AttendSnap3.png"
                 ],
      "github" : "https://github.com/Abhishekthakre2001?tab=repositories",
      "projecturl" : "https://skyattendancedashboard.netlify.app/",
@@ -34,12 +34,12 @@
    "frontend": ["React", "React Bootstrap", "MUI" , "Liquid Programing Lan.", "Shopify API"],
    "backend" : [ "Node.js" ],
    "database" :  "Mysql" ,
-   "images" : [ "http://localhost:3000/Project-images/Product_purchase1.png",
-                "http://localhost:3000/Project-images/Product_purchase2.png",
-                "http://localhost:3000/Project-images/Product_purchase3.png",
-                "http://localhost:3000/Project-images/Stickyfix1.png",
-                "http://localhost:3000/Project-images/Stickyfix2.png",
-                "http://localhost:3000/Project-images/Stickyfix3.png"
+   "images" : [ "https://at-demo.netlify.app/Project-images/Product_purchase1.png",
+                "https://at-demo.netlify.app/Project-images/Product_purchase2.png",
+                "https://at-demo.netlify.app/Project-images/Product_purchase3.png",
+                "https://at-demo.netlify.app/Project-images/Stickyfix1.png",
+                "https://at-demo.netlify.app/Project-images/Stickyfix2.png",
+                "https://at-demo.netlify.app/Project-images/Stickyfix3.png"
               ],
    "github" : "https://github.com/Abhishekthakre2001?tab=repositories",
    "projecturl" : "https://apps.shopify.com/stickyfix-notification-bar?search_id=59f29b0a-88c6-4dcf-8fe8-0ec16a01ae6b&surface_detail=Stickyfix&surface_inter_position=1&surface_intra_position=1&surface_type=search",
@@ -51,9 +51,9 @@
    "frontend": ["HTML5", "Bootstrap","CSS3", "JS"],
    "backend" : [],
 
-   "images" : [ "http://localhost:3000/Project-images/weather1.png",
-                "http://localhost:3000/Project-images/weather2.png",
-                "http://localhost:3000/Project-images/weather3.png"
+   "images" : [ "https://at-demo.netlify.app/Project-images/weather1.png",
+                "https://at-demo.netlify.app/Project-images/weather2.png",
+                "https://at-demo.netlify.app/Project-images/weather3.png"
               ],
    "github" : "https://github.com/Abhishekthakre2001/Weather-Application",
    "projecturl" : "https://weatherindiainfo.netlify.app/",
@@ -65,10 +65,10 @@
    "frontend": ["HTML5", "Bootstrap","CSS3", "JS"],
    "backend" : [],
 
-   "images" : [ "http://localhost:3000/Project-images/portfolio1.png",
-                "http://localhost:3000/Project-images/portfolio2.png",
-                "http://localhost:3000/Project-images/portfolio3.png",
-                "http://localhost:3000/Project-images/portfolio4.png"
+   "images" : [ "https://at-demo.netlify.app/Project-images/portfolio1.png",
+                "https://at-demo.netlify.app/Project-images/portfolio2.png",
+                "https://at-demo.netlify.app/Project-images/portfolio3.png",
+                "https://at-demo.netlify.app/Project-images/portfolio4.png"
               ],
    "github" : "https://github.com/Abhishekthakre2001/Portfolio",
    "projecturl" : "https://weatherindiainfo.netlify.app/",
