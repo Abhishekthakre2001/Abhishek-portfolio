@@ -98,7 +98,19 @@ const Navigation = () => {
         </div>
         <nav>
           <div className="nav-mobile">
-            <a id="navbar-toggle" onClick={toggleMobileMenu} className={isMobileMenuOpen ? 'active' : ''}>
+          <a
+              id="navbar-toggle"
+              onClick={toggleMobileMenu}
+              className={isMobileMenuOpen ? 'active' : ''}
+              role="button"
+              tabIndex="0"
+              onKeyPress={(e) => {
+                if (e.key === 'Enter') {
+                  toggleMobileMenu();
+                }
+              }}
+              aria-label="Toggle navigation menu"
+            >
               <span></span>
             </a>
           </div>
