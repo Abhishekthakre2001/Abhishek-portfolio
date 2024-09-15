@@ -8,11 +8,13 @@ import Skills from './Skills';
 import Hireme from './Hireme';
 import Contact from './Contact';
 import { Link } from 'react-router-dom';
+import Installapp from './Installapp';
 
 export default function
    Home () {
     return (
         <>
+        <Installapp />
             <div className="container home">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6 col-12 home-title">
