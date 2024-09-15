@@ -98,9 +98,9 @@ const Navigation = () => {
         </div>
         <nav>
           <div className="nav-mobile">
-            <button id="navbar-toggle" onClick={toggleMobileMenu} className={isMobileMenuOpen ? 'active' : ''}>
+            <a id="navbar-toggle" onClick={toggleMobileMenu} className={isMobileMenuOpen ? 'active' : ''}>
               <span></span>
-            </button>
+            </a>
           </div>
           <ul className={`nav-list ${isMobileMenuOpen ? 'open' : ''}`}>
             <li><NavLink  className='menu'  exact to="/" activeClassName="active">Home</NavLink></li>
