@@ -17,21 +17,16 @@ const Navigation = () => {
         </div>
         <nav>
           <div className="nav-mobile">
-            <a
+            <div
               id="navbar-toggle"
               onClick={toggleMobileMenu}
               className={isMobileMenuOpen ? 'active' : ''}
               role="button"
               tabIndex="0"
-              onKeyPress={(e) => {
-                if (e.key === 'Enter') {
-                  toggleMobileMenu();
-                }
-              }}
               aria-label="Toggle navigation menu"
             >
               <span></span>
-            </a>
+            </div>
           </div>
           <ul className={`nav-list ${isMobileMenuOpen ? 'open' : ''}`}>
             <li><NavLink className="menu" exact to="/" activeClassName="active">Home</NavLink></li>
