@@ -10,7 +10,7 @@ export default function Resume() {
     return (
         <>
             <div className="resume">
-                <h1 className="big">Resume</h1>
+                {/* <h1 className="big">Resume</h1> */}
                 <h2 className="mb-4">Resume</h2>
                 <p>I am a React and Node.js developer at Sky Vision IT Solutions, Nagpur. <br />With 6 months of hands-on experience, I specialize in building dynamic, responsive web applications.</p>
             </div>

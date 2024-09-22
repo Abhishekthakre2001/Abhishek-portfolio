@@ -16,8 +16,8 @@ export default function Services() {
     });
     return (
         <>
-            <div className="skills-section" style={{ position: "relative" }}>
-                <h1 className="big">Projects</h1>
+            <div className="skills-section" >
+                {/* <h1 className="big">Projects</h1> */}
                 <h2 className="mb-4">Projects</h2>
                 <p>These projects demonstrate my ability to turn ideas into functional, impactful applications.</p>
             </div>

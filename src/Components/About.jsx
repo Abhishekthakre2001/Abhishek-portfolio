@@ -26,7 +26,7 @@ export default function About() {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 about-data">
                         <div className="about-title">
-                            <h1 className="big">About</h1>
+                            {/* <h1 className="big">About</h1> */}
                             <h2 className="mb-4">About Me</h2>
                         </div>
                         <p>Experienced frontend developer with a passion for creating visually stunning and user-friendly websites.</p>

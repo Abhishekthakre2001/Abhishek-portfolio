@@ -21,8 +21,8 @@ export default function Skills() {
       });
     return (
         <>
-            <div className="skills-section" style={{ position: "relative" }}>
-                <h1 className="big">Skills</h1>
+            <div className="skills-section" >
+                {/* <h1 className="big">Skills</h1> */}
                 <h2 className="mb-4">Skills</h2>
                 <p>Proficient in a diverse set of tools and technologies, including HTML5, CSS3, Bootstrap, React.js,<br/> Node.js, JavaScript, PHP, SQL, GitHub, Postman, Canva, and Shopify</p>
             </div>

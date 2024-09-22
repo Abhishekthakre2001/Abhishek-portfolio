@@ -98,7 +98,7 @@ export default function Contact() {
         <>
             <Toaster />
             <div className="contact">
-                <h1 className="big">Contact</h1>
+                {/* <h1 className="big">Contact</h1> */}
                 <h2 className="mb-4">Contact</h2>
                 <p>Feel free to reach out to me for any inquiries, collaborations, or opportunities. <br />I'm always open to connecting and discussing new ideas</p>
             </div>
