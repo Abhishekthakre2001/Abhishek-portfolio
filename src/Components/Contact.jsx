@@ -24,7 +24,7 @@ export default function Contact() {
         setLoading(true); // Show the loading indicator
 
         const emailBody = {
-            mailto: "abhishekthakare060@gmail.com",
+            mailto: "abhishepkthakre@gmail.com",
             subject: subject || "No Subject",
             message: `<h1>Hi Abhishek,</h1>
                         <br>
@@ -56,8 +56,8 @@ export default function Contact() {
                     <br>
                     <p>${name}</p>
                     `,
-            username: "abhishekthakare060@gmail.com",
-            apppassword: "efwvybdtgkmqmadf",
+            username: "abhishepkthakre@gmail.com",
+            apppassword: "feli cndq swec gxjy",
             senderName: "PORTFOLIO"
         };
 
@@ -147,13 +147,13 @@ export default function Contact() {
 
                 <div className="col-md-6 col-lg-3 col-6 ftco-animate" data-aos="zoom-in">
                     <div className="contact-box">
-                        <a href="mailto:abhishekthakre060@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:abhishepkthakre@gmail.com" target="_blank" rel="noopener noreferrer">
                             <div className="Icon" style={{ margin: "0px 31px 31px 31px" }}>
                                 {/* <span className="icon-map-signs" /> */}
                                 <span className='contact-logo'><FaTelegramPlane /></span>
                             </div>
                             <h3 className="mb-4">E-mail</h3>
-                            <p style={{ color: '#999999' , textAlign:"center"}}>abhishekthakre060@gmail.com</p>
+                            <p style={{ color: '#999999' , textAlign:"center"}}>abhishepkthakre@gmail.com</p>
                         </a>
                     </div>
                 </div>

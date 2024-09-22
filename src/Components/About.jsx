@@ -3,7 +3,7 @@ import mypic from '../Images/bg_1.png'
 import '../Style/About.css'
 import Myqr from '../Images/myqr.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faCalendarDays, faLocationDot, faPhone, faBriefcase } from '@fortawesome/free-solid-svg-icons'; // Corrected import
+import { faUser, faCalendarDays, faLocationDot, faPhone, faBriefcase , faPaperPlane} from '@fortawesome/free-solid-svg-icons'; // Corrected import
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -35,7 +35,7 @@ export default function About() {
                             <li class="d-flex"><span><FontAwesomeIcon icon={faUser} /></span> <span>Abhishek Thakre</span></li>
                             <li class="d-flex"><span><FontAwesomeIcon icon={faCalendarDays} /></span> <span>July 04, 2001</span></li>
                             <li class="d-flex"><span><FontAwesomeIcon icon={faLocationDot} /></span> <span>Nagpur , MH</span></li>
-                            {/* <li class="d-flex"><span><FontAwesomeIcon icon={faPaperPlane} /></span> <span>abhishekpthakre2023@gmail.com</span></li> */}
+                            <li class="d-flex"><span><FontAwesomeIcon icon={faPaperPlane} /></span> <span>abhishepkthakre@gmail.com</span></li>
                             <li class="d-flex"><span><FontAwesomeIcon icon={faPhone} /> </span> <span>9689941705</span></li>
                             <li class="d-flex"><span><FontAwesomeIcon icon={faBriefcase} /> </span> <span>Sky Vision IT Solution's</span></li>
                             <img src={Myqr} alt="" className='myqr' width={100} />
