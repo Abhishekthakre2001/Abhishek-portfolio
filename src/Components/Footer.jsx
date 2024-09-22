@@ -18,29 +18,7 @@ export default function Footer() {
                                 <p style={{ textAlign:"center"}}>
                                     Passionate and dedicated web developer with a strong background in React.js and Node.js, constantly eager to learn and tackle new challenges in the tech world.
                                 </p>
-                                {/* <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                                    <li className="ftco-animate">
-                                        <a href="#">
-                                            <span className='social-icons'>
-
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li className="ftco-animate">
-                                        <a href="#">
-                                            <span className='social-icons'>
-
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li className="ftco-animate">
-                                        <a href="#">
-                                            <span className='social-icons'>
-
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul> */}
+                              
                             </div>
                         </div>
                         <div className="col-md">

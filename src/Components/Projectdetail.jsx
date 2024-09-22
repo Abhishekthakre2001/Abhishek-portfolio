@@ -36,7 +36,7 @@ export default function Projectdetail() {
         const projectValue = path.split('=')[1]; // Extract 'Sky' from '/Projectdetail/project=Sky'
         console.log("project name", projectValue);
         // Fetch data from the JSON file
-        fetch('https://at-demo.netlify.app/Projectdata.json')
+        fetch('https://abhishek-newportfolio.netlify.app/Projectdata.json')
             .then(response => response.json())  // Parse the JSON data
             .then(data => {
                 // Filter the data by project name
