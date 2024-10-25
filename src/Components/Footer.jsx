@@ -109,7 +109,7 @@ export default function Footer() {
                                         <li>
 
                                             <span className="icon icon-envelope" />
-                                            <span className="text">abhishepkthakre@gmail.com
+                                            <span className="text">abhishekkthakare@gmail.com
                                             </span>
 
                                         </li>

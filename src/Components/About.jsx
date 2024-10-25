@@ -35,7 +35,7 @@ export default function About() {
                             <li class="d-flex"><span><FontAwesomeIcon icon={faUser} /></span> <span>Abhishek Thakre</span></li>
                             <li class="d-flex"><span><FontAwesomeIcon icon={faCalendarDays} /></span> <span>July 04, 2001</span></li>
                             <li class="d-flex"><span><FontAwesomeIcon icon={faLocationDot} /></span> <span>Nagpur , MH</span></li>
-                            <li class="d-flex"><span><FontAwesomeIcon icon={faPaperPlane} /></span> <span>abhishepkthakre@gmail.com</span></li>
+                            <li class="d-flex"><span><FontAwesomeIcon icon={faPaperPlane} /></span> <span>abhishekkthakare@gmail.com</span></li>
                             <li class="d-flex"><span><FontAwesomeIcon icon={faPhone} /> </span> <span>9689941705</span></li>
                             <li class="d-flex"><span><FontAwesomeIcon icon={faBriefcase} /> </span> <span>Sky Vision IT Solution's</span></li>
                             <img src={Myqr} alt="" className='myqr' width={100} />
