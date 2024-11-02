@@ -52,6 +52,7 @@
    "backend" : [],
    "images" : [ "https://at-demo.netlify.app/Project-images/extension.png"],
    "github" : "https://github.com/Abhishekthakre2001/Weather-Extension",
+   "projecturl" : "https://at-demo.netlify.app/Demovideo/Extension.mp4",
   "information": "<h3><b>Google Crome Extension</b></h3><br><h5>Get instant weather updates with our Chrome extension. Automatically fetches your current location and displays real-time weather information in a compact card format for quick and easy access.</h5>"
 },
 {
