@@ -46,6 +46,14 @@
   "information": "<h3><b>Stickyfix Notification Bar</b></h3><br><strong>Stickyfix Notification Bar Boost Your Sales from your store</strong><br>Description: The solution for Shopify store owners looking to enhance customer engagement and drive more sales. With Stickyfix, you can effortlessly create eye-catching notification bars that keep your visitors informed and motivated to take action. Craft compelling messages to highlight special offers, announce new arrivals, or share important updates. With Stickyfix, your notification text will grab attention and encourage customer interaction.<br> <br><h3><b>CartBar ‑ Product Purchase Bar</b></h3> <strong> Description : </strong><p>Introducing the Sticky Discount Product Purchase Bar app – your secret weapon for making product announcements, offers, and sales truly irresistible! You can effortlessly create eye-catching displays featuring product images, prices, discounts, and captivating offer descriptions. Brace yourself for a shopping revolution as the Sticky Discount Product Purchase Bar takes center stage, showcasing the highlights that matter most – enticing visuals, unbeatable discounts, and a tempting Add to Cart</p><br> Currently Working on the <h5> <b> RG-Floating Cart Bar</b></h5>"
 },
 {
+  "id":"04",
+   "projectname":"Google Crome Extension",
+   "frontend": ["HTML", "CSS", "Bootstrap", "Javascript" , "Fetch API"],
+   "images" : [ "https://at-demo.netlify.app/Project-images/extension.png"],
+   "github" : "https://github.com/Abhishekthakre2001/Weather-Extension",
+  "information": "<h3><b>Google Crome Extension</b></h3><br><h5>Get instant weather updates with our Chrome extension. Automatically fetches your current location and displays real-time weather information in a compact card format for quick and easy access.</h5>"
+},
+{
   "id":"05",
    "projectname":"Weather Application",
    "frontend": ["HTML5", "Bootstrap","CSS3", "JS"],
