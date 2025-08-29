@@ -1,0 +1,37 @@
+name: Remix Shopify App Docker Image
+ 
+on:
+  workflow_dispatch:   
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+ 
+    env:
+      IMAGE_NAME: shopify-gold-rate-remix-app
+      DOCKER_REGISTRY: docker.io
+      DOCKERFILE_PATH: ./shopify-remix-app
+ 
+    steps:
+      # Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3
+ 
+      # Set up Docker
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3     
+ 
+      - name: docker login
+        env:
+          USER: ${{ secrets.DOCKER_USERNAME }}
+          PASS: ${{ secrets.DOCKER_PASSWORD }}
+        run: docker login -u "$USER" -p "$PASS"
+ 
+      # Build Docker image
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: ${{ env.DOCKERFILE_PATH }}
+          file: ${{ env.DOCKERFILE_PATH }}/Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest
